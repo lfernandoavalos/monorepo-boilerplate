@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import 'core-ui/build/components/Button/index.css';
+import Button from 'core-ui/build/components/Button';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
 class App extends Component {
   render() {
@@ -19,6 +21,7 @@ class App extends Component {
           >
             Learn React
           </a>
+          <Button content="Lerna Button!" />
         </header>
       </div>
     );
